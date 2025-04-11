@@ -134,7 +134,7 @@
                                                 on:click={cancelEditStock}
                                                 class="px-3 py-1.5 rounded-md bg-white/10 text-gray-400 hover:bg-white/20 transition-colors"
                                             >
-                                                Cancel
+                                                X
                                             </button>
                                         </div>
                                     </div>
