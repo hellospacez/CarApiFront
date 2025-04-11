@@ -5,7 +5,7 @@ import { isLoggedIn } from '$lib/stores/auth';
 // ==========================
 //
 
-const API_BASE = 'http://car.9it.com.au';
+const API_BASE = 'https://carstockapi.onrender.com';
 export function getToken(): string | null {
     return localStorage.getItem('token');
 }
