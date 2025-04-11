@@ -86,6 +86,14 @@
                     Create your account
                 </h2>
             </div>
+
+            {#if isLoading && !error}
+                <br>
+                <div class="text-sm text-center text-yellow-300 mb-4">
+                    ⏳ This app is hosted on Render's free tier. First load may take 30–60 seconds due to cold start.
+                </div>
+            {/if}
+
             <form class="mt-8 space-y-6" on:submit|preventDefault={handleSubmit}>
                 {#if error}
                     <div class="bg-red-500/10 border border-red-500/50 text-red-200 px-4 py-3 rounded-lg">
